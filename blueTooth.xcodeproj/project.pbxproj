@@ -9,13 +9,16 @@
 /* Begin PBXBuildFile section */
 		7DF657C12A94867D00068889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657C02A94867D00068889 /* AppDelegate.swift */; };
 		7DF657C32A94867D00068889 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657C22A94867D00068889 /* SceneDelegate.swift */; };
-		7DF657C52A94867D00068889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657C42A94867D00068889 /* ViewController.swift */; };
-		7DF657C82A94867D00068889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF657C62A94867D00068889 /* Main.storyboard */; };
 		7DF657CA2A94868200068889 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DF657C92A94868200068889 /* Assets.xcassets */; };
 		7DF657CD2A94868200068889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DF657CB2A94868200068889 /* LaunchScreen.storyboard */; };
 		7DF657D82A94868300068889 /* blueToothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657D72A94868300068889 /* blueToothTests.swift */; };
 		7DF657E22A94868300068889 /* blueToothUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657E12A94868300068889 /* blueToothUITests.swift */; };
 		7DF657E42A94868300068889 /* blueToothUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657E32A94868300068889 /* blueToothUITestsLaunchTests.swift */; };
+		7DF657F62A9486F100068889 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657F42A9486F100068889 /* MainViewController.swift */; };
+		7DF657F72A9486F100068889 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF657F52A9486F100068889 /* MainViewController.xib */; };
+		7DF657FB2A94877100068889 /* BlueToothTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF657FA2A94877100068889 /* BlueToothTest.swift */; };
+		7DF658032A97260000068889 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF658012A97260000068889 /* MainTableViewCell.swift */; };
+		7DF658042A97260000068889 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DF658022A97260000068889 /* MainTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +42,6 @@
 		7DF657BD2A94867D00068889 /* blueTooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blueTooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF657C02A94867D00068889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DF657C22A94867D00068889 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7DF657C42A94867D00068889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7DF657C72A94867D00068889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DF657C92A94868200068889 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DF657CC2A94868200068889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DF657CE2A94868200068889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +50,11 @@
 		7DF657DD2A94868300068889 /* blueToothUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blueToothUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DF657E12A94868300068889 /* blueToothUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blueToothUITests.swift; sourceTree = "<group>"; };
 		7DF657E32A94868300068889 /* blueToothUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blueToothUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7DF657F42A9486F100068889 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		7DF657F52A9486F100068889 /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		7DF657FA2A94877100068889 /* BlueToothTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueToothTest.swift; sourceTree = "<group>"; };
+		7DF658012A97260000068889 /* MainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		7DF658022A97260000068889 /* MainTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,11 @@
 		7DF657BF2A94867D00068889 /* blueTooth */ = {
 			isa = PBXGroup;
 			children = (
+				7DF657F22A9486D200068889 /* Model */,
+				7DF657F12A9486CA00068889 /* View */,
+				7DF657F02A9486C100068889 /* Controller */,
 				7DF657C02A94867D00068889 /* AppDelegate.swift */,
 				7DF657C22A94867D00068889 /* SceneDelegate.swift */,
-				7DF657C42A94867D00068889 /* ViewController.swift */,
-				7DF657C62A94867D00068889 /* Main.storyboard */,
 				7DF657C92A94868200068889 /* Assets.xcassets */,
 				7DF657CB2A94868200068889 /* LaunchScreen.storyboard */,
 				7DF657CE2A94868200068889 /* Info.plist */,
@@ -125,6 +132,48 @@
 				7DF657E32A94868300068889 /* blueToothUITestsLaunchTests.swift */,
 			);
 			path = blueToothUITests;
+			sourceTree = "<group>";
+		};
+		7DF657F02A9486C100068889 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DF657F32A9486DB00068889 /* Main */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DF657F12A9486CA00068889 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7DF657F22A9486D200068889 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DF657FA2A94877100068889 /* BlueToothTest.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7DF657F32A9486DB00068889 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7DF658002A9725E700068889 /* Component */,
+				7DF657F42A9486F100068889 /* MainViewController.swift */,
+				7DF657F52A9486F100068889 /* MainViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7DF658002A9725E700068889 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				7DF658012A97260000068889 /* MainTableViewCell.swift */,
+				7DF658022A97260000068889 /* MainTableViewCell.xib */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DF657CD2A94868200068889 /* LaunchScreen.storyboard in Resources */,
+				7DF657F72A9486F100068889 /* MainViewController.xib in Resources */,
+				7DF658042A97260000068889 /* MainTableViewCell.xib in Resources */,
 				7DF657CA2A94868200068889 /* Assets.xcassets in Resources */,
-				7DF657C82A94867D00068889 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +308,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DF657C52A94867D00068889 /* ViewController.swift in Sources */,
+				7DF657FB2A94877100068889 /* BlueToothTest.swift in Sources */,
+				7DF657F62A9486F100068889 /* MainViewController.swift in Sources */,
 				7DF657C12A94867D00068889 /* AppDelegate.swift in Sources */,
 				7DF657C32A94867D00068889 /* SceneDelegate.swift in Sources */,
+				7DF658032A97260000068889 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7DF657C62A94867D00068889 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7DF657C72A94867D00068889 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7DF657CB2A94868200068889 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,9 +486,9 @@
 				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blueTooth/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,9 +514,9 @@
 				DEVELOPMENT_TEAM = S8FBP4YLUA;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = blueTooth/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Allow for bluetooth use";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

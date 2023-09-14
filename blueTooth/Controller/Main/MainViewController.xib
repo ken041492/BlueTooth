@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController" customModule="blueTooth" customModuleProvider="target">
+            <connections>
+                <outlet property="LightValue" destination="KYo-kU-hbx" id="KEn-gU-eCb"/>
+                <outlet property="tableView" destination="VrV-QW-Dir" id="Un9-E2-auN"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KYo-kU-hbx">
+                    <rect key="frame" x="103.5" y="644" width="207" height="89.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VrV-QW-Dir">
+                    <rect key="frame" x="0.0" y="68.5" width="414" height="537.5"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="KYo-kU-hbx" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.1" id="HAV-8V-fyK"/>
+                <constraint firstItem="VrV-QW-Dir" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="24.5" id="J6s-CS-f3B"/>
+                <constraint firstItem="VrV-QW-Dir" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="LCk-4M-vkY"/>
+                <constraint firstItem="KYo-kU-hbx" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="My2-Jo-ePs"/>
+                <constraint firstItem="VrV-QW-Dir" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.6" id="SSe-FO-cpO"/>
+                <constraint firstItem="VrV-QW-Dir" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" id="abC-G9-JxQ"/>
+                <constraint firstItem="KYo-kU-hbx" firstAttribute="top" secondItem="VrV-QW-Dir" secondAttribute="bottom" constant="38" id="bUn-wh-myb"/>
+                <constraint firstItem="KYo-kU-hbx" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.5" id="dXU-zJ-4Ud"/>
+            </constraints>
+            <point key="canvasLocation" x="132" y="67"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
